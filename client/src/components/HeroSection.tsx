@@ -10,7 +10,7 @@ export const HeroSection = () => {
       </h1>
       <div className="flex gap-4 lg:flex-row flex-col">
         <Button
-          text="Play"
+          text="Play Online"
           icon={FaArrowRightLong}
           styles="bg-white/5 backdrop-blur-lg gap-6 rounded-xl"
           iconToLeft={false}
