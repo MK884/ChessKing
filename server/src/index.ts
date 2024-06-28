@@ -19,13 +19,13 @@ wss.on("connection", function connection(ws) {
   ws.on("close", () => {
     userAgent.removeUser(ws);
     console.log("player disconnected");
-    wss.clients.forEach((client)=>{
-      if(ws !== client && client.readyState === WebSocket.OPEN){
-        client.send(JSON.stringify({
-          type: DISCONNECTED,
-          res: ws
-        }));
-      }
-    })
+    // wss.clients.forEach((client)=>{
+    //   if(ws !== client && client.readyState === WebSocket.OPEN){
+    //     client.send(JSON.stringify({
+    //       type: DISCONNECTED,
+    //       res: ws
+    //     }));
+    //   }
+    // })
   });
 });
