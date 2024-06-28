@@ -14,3 +14,11 @@ export interface customeButtonProps {
     onClick?: () => void;
   }
 
+
+export interface CardProps {
+  title: string;
+  icon?: IconType;
+  description?: string;
+  styles?: string;
+  onClick?: () => void;
+} 

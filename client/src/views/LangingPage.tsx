@@ -1,4 +1,10 @@
-import { Button, HeroSection, NavBar, TechStack } from "../components";
+import {
+  Button,
+  GitBanner,
+  HeroSection,
+  NavBar,
+  TechStack,
+} from "../components";
 
 const Logo = () => {
   return (
@@ -18,13 +24,11 @@ const Logo = () => {
 export const LandingPage = () => {
   return (
     <>
-      <div className=" bg-[#1c1c1c] max-w-screen max-h-full min-h-screen ">
+      <div className=" bg-[#1c1c1c] max-w-screen max-h-full min-h-screen">
         <NavBar>
           <Logo />
           <Button text="Login" styles="lg:h-12" />
         </NavBar>
-        
-
         <HeroSection />
         <TechStack />
       </div>
