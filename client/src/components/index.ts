@@ -2,9 +2,9 @@ import { Button } from "./Button";
 import { Card } from "./Card";
 import { GitBanner } from "./GitBanner";
 import { HeroSection } from "./HeroSection";
+import { Input } from "./Input";
 import { NavBar } from "./NavBar";
 import { TechStack } from "./TechStack";
-
 
 
 export {
@@ -13,5 +13,6 @@ export {
     HeroSection,
     TechStack,
     GitBanner,
-    Card
+    Card,
+    Input
 }

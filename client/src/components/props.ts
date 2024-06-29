@@ -22,3 +22,10 @@ export interface CardProps {
   styles?: string;
   onClick?: () => void;
 } 
+
+export interface InputProps {
+  placeholder: string;
+  type: string;
+  style?: string;
+  onchange?: () => void;
+}
