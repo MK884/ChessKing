@@ -10,6 +10,7 @@ export interface customeButtonProps {
     borderRadius?: string;
     hoverBgColor?: string;
     iconToLeft?: boolean;
+    iconStyle?: string;
     styles?: string;
     onClick?: () => void;
   }

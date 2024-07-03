@@ -10,6 +10,7 @@ export const Button = ({
   borderRadius = "rounded",
   hoverBgColor = "hover:bg-blue-500",
   styles,
+  iconStyle,
   iconToLeft = true,
   onClick,
 }: customeButtonProps) => {
@@ -20,13 +21,13 @@ export const Button = ({
     >
       {iconToLeft ? (
         <>
-          {Icon && <Icon className="" />}
+          {Icon && <Icon className={iconStyle} />}
           {text}
         </>
       ) : (
         <>
           {text}
-          {Icon && <Icon className="" />}
+          {Icon && <Icon className={iconStyle} />}
         </>
       )}
     </button>

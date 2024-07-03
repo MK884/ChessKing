@@ -1,5 +1,6 @@
 import { Button, Input } from "../components";
-import { FaGithub, FaGoogle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 export const Login = () => {
   return (
@@ -14,14 +15,16 @@ export const Login = () => {
               <Button
                 text="Sign in with Google"
                 bgColor="bg-[#374151]"
-                icon={FaGoogle}
+                icon={FcGoogle}
                 styles="gap-4"
+                iconStyle="text-xl"
               />
               <Button
                 text="Sign in with GitHub"
                 bgColor="bg-[#374151]"
                 icon={FaGithub}
                 styles="gap-4"
+                iconStyle="text-xl"
               />
               <p className="text-white/50">--- OR ---</p>
             </div>
